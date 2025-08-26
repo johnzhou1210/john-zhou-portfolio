@@ -1,0 +1,47 @@
+#root {
+  
+}
+
+body {
+  width: 100%;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  /* margin-inline: 1vw; */
+  width: 100vw;
+}
+
+.icon-link-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.large-icon {
+  font-size: 48px;
+}
+
+.huge-icon {
+  font-size: 64px;
+}
+
+.hero-section a:hover svg {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.project a:hover svg {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh; /* ensures full height */
+}
+
