@@ -16,9 +16,7 @@ function Contacts() {
 							I'm John Zhou, a software and game developer passionate about
 							creating interactive and engaging experiences. I work with Unity
 							and C# for game development, and I also build web applications
-							with React, JS/TS, and Supabase. I enjoy solving problems,
-							designing clean architectures, and turning ideas into functional,
-							polished projects.
+							with React, JS/TS, and Supabase. I particularly enjoy the feeling after solving a tough problem after hours (and sometimes even days) of debugging and scratching my head. Game development has taught me about the neverending process of learning and applying new skills.
 						</p>
 						<p className="text-muted">
 							I'm especially interested in multiplayer game mechanics,
