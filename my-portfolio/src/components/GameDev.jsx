@@ -15,68 +15,71 @@ function GameDev() {
           <CarouselCard
             id="kablammoCarousel"
             title="KaBlammo Tanks"
-            body="A multiplayer tank battle game inspired by the game Dragon Quest Heroes: Rocket Slime. Features projectile combat, fast-paced gameplay, and chaotic fun."
+            body={
+              <>
+                A multiplayer tank battle mobile game inspired by the game{" "}
+                <em>Dragon Quest Heroes: Rocket Slime</em>. Features projectile
+                combat, fast-paced gameplay, and chaotic fun.
+              </>
+            }
             media={[
               {
-				type: "image",
+                type: "image",
                 src: "/game-thumbnails/kablammo/kablammo-tanks1.png",
                 alt: "Kablammo Tanks Gameplay 1",
               },
               {
-				type: "image",
+                type: "image",
                 src: "/game-thumbnails/kablammo/kablammo-tanks2.png",
                 alt: "Kablammo Tanks Gameplay 2",
               },
               {
-				type: "image",
+                type: "image",
                 src: "/game-thumbnails/kablammo/kablammo-tanks3.png",
                 alt: "Kablammo Tanks Gameplay 3",
               },
             ]}
-			tech={"Unity / C#"}
+            tech={"Unity / C#"}
           />
 
-			{/* Project 2 */}
-		  <CarouselCard
+          {/* Project 2 */}
+          <CarouselCard
             id="shroomiesCarousel"
             title="Shroomies"
-            body="A floral-themed 2D bullet hell where a mushroom lays waste to floral foes. Focused on fluid controls and fast-paced roguelite gameplay."
+            body="A floral-themed 2D mobile bullet hell where a mushroom lays waste to floral foes. Focused on responsiveness and roguelite gameplay."
             media={[
               {
-				type: "image",
+                type: "image",
                 src: "/game-thumbnails/shroomies/shroomies1.png",
                 alt: "Shroomies Gameplay 1",
               },
               {
-				type: "image",
+                type: "image",
                 src: "/game-thumbnails/shroomies/shroomies2.png",
                 alt: "Shroomies Gameplay 2",
               },
               {
-				type: "image",
+                type: "image",
                 src: "/game-thumbnails/shroomies/shroomies3.png",
                 alt: "Shroomies Gameplay 3",
               },
-			  {
-				type: "image",
+              {
+                type: "image",
                 src: "/game-thumbnails/shroomies/shroomies4.png",
                 alt: "Shroomies Gameplay 4",
               },
 
-			   {
-				type: "video",
+              {
+                type: "video",
                 src: "https://www.youtube.com/embed/Za_XHCxt_Yw?si=APdwT2D7TF9sNRAF&autoplay=1&mute=1",
                 alt: "Shroomies Trailer",
               },
-			  
-			  
             ]}
-			tech={"Unity / C#"}
+            tech={"Unity / C#"}
           />
-         
 
           {/* Project 3 */}
-<CarouselCard
+          <CarouselCard
             id="konbiniCarousel"
             title="Konbini No Kage"
             body="A 3D psychological horror game set in a Japanese convenience
@@ -85,41 +88,38 @@ function GameDev() {
                   prey)."
             media={[
               {
-				type: "image",
+                type: "image",
                 src: "/game-thumbnails/konbini/konbini1.png",
                 alt: "Konbini No Kage Gameplay 1",
               },
               {
-				type: "image",
+                type: "image",
                 src: "/game-thumbnails/konbini/konbini2.png",
                 alt: "Konbini No Kage Gameplay 2",
               },
               {
-				type: "image",
+                type: "image",
                 src: "/game-thumbnails/konbini/konbini3.png",
                 alt: "Konbini No Kage Gameplay 3",
               },
-			   {
-				type: "image",
+              {
+                type: "image",
                 src: "/game-thumbnails/konbini/konbini4.png",
                 alt: "Konbini No Kage Gameplay 4",
               },
-			   {
-				type: "image",
+              {
+                type: "image",
                 src: "/game-thumbnails/konbini/konbini5.png",
                 alt: "Konbini No Kage Gameplay 5",
               },
-			   {
-				type: "image",
+              {
+                type: "image",
                 src: "/game-thumbnails/konbini/konbini6.png",
                 alt: "Konbini No Kage Gameplay 6",
               },
             ]}
-			tech={"Unity / C#"}
+            tech={"Unity / C#"}
           />
-
-
-
         </div>
       </div>
     </div>

@@ -11,6 +11,7 @@ import WebDev from "./components/WebDev";
 import MiscProjects from "./components/MiscProjects";
 import Contacts from "./components/Contacts";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -39,6 +40,8 @@ function App() {
 				<MiscProjects ref={miscProjectsRef} />
 				<Contacts ref={contactsRef} />
 			</div>
+
+			<Footer />
 		</div>
 	);
 }

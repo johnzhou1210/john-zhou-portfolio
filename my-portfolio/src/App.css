@@ -28,12 +28,12 @@ body {
   font-size: 64px;
 }
 
-.hero-section a:hover svg {
+a:hover svg {
   transform: scale(1.2);
   transition: transform 0.2s ease-in-out;
 }
 
-.project a:hover svg {
+a:hover svg {
   transform: scale(1.2);
   transition: transform 0.2s ease-in-out;
 }
