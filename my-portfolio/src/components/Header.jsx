@@ -14,7 +14,7 @@ function Header() {
 		<div className="hero-section text-center bg-light py-5">
 			<div className="container">
 				<h1 className="display-3 fw-bold mb-3">John Zhou</h1>
-				<h2 className="h4 text-muted mb-3">Software & Game Developer</h2>
+				<h2 className="h4 text-muted mb-3">Software & Indie Game Developer</h2>
 				<h3 className="h5 mb-4">Building interactive games and web apps.</h3>
 
 				{/* Social Icons Row */}

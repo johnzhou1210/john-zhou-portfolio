@@ -1,27 +1,14 @@
-import { useState } from "react";
 import "./App.css";
 import Homepage from "./routes/Homepage";
-import { useRef } from "react";
 
 import { Routes, Route } from "react-router-dom";
-import TopBar from "./components/TopBar";
-import Header from "./components/Header";
-import GameDev from "./components/GameDev";
-import WebDev from "./components/WebDev";
-import MiscProjects from "./components/MiscProjects";
-import Contacts from "./components/Contacts";
-import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
+import KablammoTanks from "./routes/KablammoTanks";
+import Shroomies from "./routes/Shroomies";
+import KonbiniNoKage from "./routes/KonbiniNoKage";
 
 function App() {
-	const headerRef = useRef(null);
-	const gameDevRef = useRef(null);
-	const webDevRef = useRef(null);
-	const miscProjectsRef = useRef(null);
-	const contactsRef = useRef(null);
-	const skillsRef = useRef(null);
-
 	return (
 		<div>
 			{/* <TopBar
@@ -32,14 +19,17 @@ function App() {
 				contactsRef={contactsRef}
 			/> */}
 
-			<div className="section-container">
-				<Header ref={headerRef} />
-				<Skills ref={skillsRef} />
-				<GameDev ref={gameDevRef} />
-				<WebDev ref={webDevRef} />
-				<MiscProjects ref={miscProjectsRef} />
-				<Contacts ref={contactsRef} />
-			</div>
+			<Routes>
+				<Route path="/" element={<Homepage />} />
+				<Route path="/kablammo-tanks" element={<KablammoTanks />} />
+				<Route path="/shroomies" element={<Shroomies />} />
+				<Route path="/konbini-no-kage" element={<KonbiniNoKage />} />
+				{/*<Route path="/fairnest" element={<FairNest />} />
+				<Route path="/exploreo" element={<Exploreo />} />
+				<Route path="/chairs-and-chairs" element={<ChairsAndChairs />} />
+				<Route path="/journey-of-bob" element={<JourneyOfBob />} />
+				<Route path="/aeternum-rift" element={<AeternumRift />} /> */}
+			</Routes>
 
 			<Footer />
 		</div>

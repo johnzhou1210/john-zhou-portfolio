@@ -25,7 +25,7 @@ function WebDev() {
 									through automated web scraping. Marks all listings with a
 									fairness score generated through a fairness-scoring algorithm.
 								</p>
-								<p className="text-muted">React / TS</p>
+								<p className="text-muted">React / TS (2025)</p>
 							</div>
 						</div>
 					</div>
@@ -44,7 +44,7 @@ function WebDev() {
 									A simple mobile travel planner that allows the user to add
 									places and tasks to ther itinerary.
 								</p>
-								<p className="text-muted">Flutter / Dart </p>
+								<p className="text-muted">Flutter / Dart (2024)</p>
 							</div>
 						</div>
 					</div>

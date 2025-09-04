@@ -25,7 +25,7 @@ function Skills() {
 							<div className="card-body text-center">
 								<h5 className="card-title fw-bold mb-3">Game Dev</h5>
 								<p className="card-text">
-									Unity, NavMesh, Grid UI, Multiplayer
+									Unity, NavMesh, Multiplayer, Data Persistence
 								</p>
 							</div>
 						</div>
@@ -46,7 +46,9 @@ function Skills() {
 						<div className="card h-100 shadow-sm">
 							<div className="card-body text-center">
 								<h5 className="card-title fw-bold mb-3">Tools</h5>
-								<p className="card-text">Git, Postman, VS Code, Rider, Figma</p>
+								<p className="card-text">
+									Git, Postman, VS Code, Rider, Figma, Trello
+								</p>
 							</div>
 						</div>
 					</div>
