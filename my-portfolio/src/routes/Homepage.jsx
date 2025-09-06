@@ -20,8 +20,8 @@ function Homepage() {
 				<Header ref={headerRef} />
 				<Skills ref={skillsRef} />
 				<GameDev ref={gameDevRef} />
-				<WebDev ref={webDevRef} />
 				<MiscProjects ref={miscProjectsRef} />
+				<WebDev ref={webDevRef} />
 				<Contacts ref={contactsRef} />
 			</div>
 		</>

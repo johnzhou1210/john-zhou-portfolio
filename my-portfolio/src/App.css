@@ -52,3 +52,9 @@ a > .carousel-card {
 .hero {
   padding-top: 68px;
 }
+
+.carousel-card .carousel-inner {
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: cover;
+}

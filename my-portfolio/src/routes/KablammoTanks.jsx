@@ -1,14 +1,20 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 
 const ProjectWireframe = () => {
+	const navigate = useNavigate();
+
 	return (
 		<div>
 			<nav className="navbar navbar-light bg-light fixed-top">
 				<div className="container">
-					<a className="navbar-brand" href="/">
+					<button
+						className="navbar-brand btn btn-link p-0"
+						onClick={() => navigate(-1)}
+					>
 						← Back to Portfolio
-					</a>
+					</button>
 				</div>
 			</nav>
 			<div className="hero container mt-5">
@@ -49,8 +55,8 @@ const ProjectWireframe = () => {
 										<strong>Team Size:</strong> 1 person
 									</p>
 									<p>
-										<strong>Technologies:</strong> Unity, Netcode, Generative AI
-										(Art)
+										<strong>Technologies:</strong> Unity, Netcode, Audacity,
+										GIMP, Generative AI (Art), JetBrains Rider
 									</p>
 								</div>
 								<div className="col-md-6">

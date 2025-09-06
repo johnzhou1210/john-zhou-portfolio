@@ -29,13 +29,13 @@ function Contacts() {
 							about the neverending process of learning and applying new skills.
 						</p>
 						<p className="text-muted">
-							I'm especially interested in multiplayer game mechanics,
-							turn-based RPG systems, and creating intuitive, interactive UI
-							experiences. Outside of coding, I enjoy playing other games for
-							inspiration and tinkering with my current Linux distribution of
-							choice (Fedora). I'm excited to work on projects that challenge
-							me, whether in game development, web/software applications, or
-							data analysis, and I'm always eager to learn new technologies.
+							I'm especially interested in turn-based JRPG systems and how
+							satisfying a well-planned one can be. Outside of developing games,
+							I enjoy playing other games for inspiration and tinkering with my
+							current Linux distribution of choice (Fedora). I'm excited to work
+							on projects that challenge me, whether in game development,
+							web/software applications, artificial intelligence, or data
+							analysis, and I'm always eager to learn new technologies.
 						</p>
 					</div>
 				</div>

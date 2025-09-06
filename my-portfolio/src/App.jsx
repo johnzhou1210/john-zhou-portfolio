@@ -7,6 +7,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import KablammoTanks from "./routes/KablammoTanks";
 import Shroomies from "./routes/Shroomies";
 import KonbiniNoKage from "./routes/KonbiniNoKage";
+import FairNest from "./routes/FairNest";
+import Exploreo from "./routes/Exploreo";
+import ChairsAndChairs from "./routes/ChairsAndChairs";
+import TheJourneyOfBob from "./routes/TheJourneyOfBob";
+import AeternumRift from "./routes/AeternumRift";
 
 function App() {
 	return (
@@ -24,11 +29,11 @@ function App() {
 				<Route path="/kablammo-tanks" element={<KablammoTanks />} />
 				<Route path="/shroomies" element={<Shroomies />} />
 				<Route path="/konbini-no-kage" element={<KonbiniNoKage />} />
-				{/*<Route path="/fairnest" element={<FairNest />} />
+				<Route path="/fairnest" element={<FairNest />} />
 				<Route path="/exploreo" element={<Exploreo />} />
 				<Route path="/chairs-and-chairs" element={<ChairsAndChairs />} />
-				<Route path="/journey-of-bob" element={<JourneyOfBob />} />
-				<Route path="/aeternum-rift" element={<AeternumRift />} /> */}
+				<Route path="/journey-of-bob" element={<TheJourneyOfBob />} />
+				<Route path="/aeternum-rift" element={<AeternumRift />} />
 			</Routes>
 
 			<Footer />

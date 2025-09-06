@@ -90,7 +90,13 @@ const CarouselCard = ({ id, title, body, media, tech, to }) => {
 					{tech && <p className="text-muted">{tech}</p>}
 
 					{/* Only this area becomes clickable */}
-					{to && <Link to={to} className="stretched-link" />}
+					{to && (
+						<Link
+							to={to}
+							className="stretched-link"
+							onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+						/>
+					)}
 				</div>
 			</div>
 		</div>

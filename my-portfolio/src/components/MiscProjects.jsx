@@ -5,7 +5,7 @@ function MiscProjects() {
 	return (
 		<div className="misc-projects-section bg-dark text-light py-5">
 			<div className="container">
-				<h1 className="text-center mb-5">More Projects</h1>
+				<h1 className="text-center mb-5">More Game Projects</h1>
 
 				<div className="row g-4">
 					{/* Project 1 */}
@@ -54,6 +54,7 @@ function MiscProjects() {
 							},
 						]}
 						tech={"Unity / C# (2025)"}
+						to={"/chairs-and-chairs"}
 					/>
 
 					{/* Project 2 */}
@@ -97,22 +98,22 @@ function MiscProjects() {
 							},
 							{
 								type: "image",
-								src: "/game-thumbnails/bob/bob4.png",
+								src: "/game-thumbnails/bob/bob6.png",
 								alt: "The Journey of Bob Gameplay 6",
 							},
 							{
 								type: "image",
-								src: "/game-thumbnails/bob/bob5.png",
+								src: "/game-thumbnails/bob/bob7.png",
 								alt: "The Journey of Bob Gameplay 7",
 							},
 							{
 								type: "image",
-								src: "/game-thumbnails/bob/bob4.png",
+								src: "/game-thumbnails/bob/bob8.png",
 								alt: "The Journey of Bob Gameplay 8",
 							},
 							{
 								type: "image",
-								src: "/game-thumbnails/bob/bob5.png",
+								src: "/game-thumbnails/bob/bob9.png",
 								alt: "The Journey of Bob Gameplay 9",
 							},
 							{
@@ -157,6 +158,7 @@ function MiscProjects() {
 							},
 						]}
 						tech={"Unity / C# (2021)"}
+						to={"/journey-of-bob"}
 					/>
 
 					{/* Project 3 */}
@@ -208,7 +210,8 @@ function MiscProjects() {
 								alt: "Aeternum Rift Gameplay 8",
 							},
 						]}
-						tech={"Roblox Studio / Lua (2022)"}
+						tech={"Roblox Studio / Lua (2021)"}
+						to={"/aeternum-rift"}
 					/>
 				</div>
 			</div>

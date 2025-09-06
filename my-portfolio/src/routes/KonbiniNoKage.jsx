@@ -1,14 +1,20 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 
 const ProjectWireframe = () => {
+	const navigate = useNavigate();
+
 	return (
 		<div>
 			<nav className="navbar navbar-light bg-light fixed-top">
 				<div className="container">
-					<a className="navbar-brand" href="/">
+					<button
+						className="navbar-brand btn btn-link p-0"
+						onClick={() => navigate(-1)}
+					>
 						← Back to Portfolio
-					</a>
+					</button>
 				</div>
 			</nav>
 			<div className="hero container mt-5">
@@ -54,7 +60,7 @@ const ProjectWireframe = () => {
 										decimate/simplify 3d models), Audacity, MuseScore (Stalker's
 										chase music loop), PureRef (for image references when
 										building 3D models) Generative AI (2D Art & Textures), GIMP
-										(to edit Generative AI images)
+										(to edit Generative AI images), JetBrains Rider
 									</p>
 								</div>
 								<div className="col-md-6">
@@ -65,9 +71,16 @@ const ProjectWireframe = () => {
 										<strong>My Contributions:</strong>
 									</p>
 									<ul>
-										<li>Designed and implemented game look and feel.</li>
 										<li>
-											Integrated Unity Netcode for GameObjects into the game.
+											Created all the visuals for the scene, including
+											animations, visual effects, 3D models, excluding textures
+											that were generated with AI.
+										</li>
+										<li>
+											Implemented all core mechanics of the game, such as
+											navigating security cameras, lining up and checking out
+											customers, NPC AI, and interactions with the environment
+											(e.g. breaker box, cashier, CCTV)
 										</li>
 										<li>Created and managed codebase and assets.</li>
 									</ul>
@@ -104,27 +117,29 @@ const ProjectWireframe = () => {
 					{/* Contribution 2 */}
 					<div className="mb-4">
 						<h3>
-							<span className="badge badge-primary mr-2">2</span> Simulated
-							Projectile Motion
+							<span className="badge badge-primary mr-2">2</span> Building 3D
+							Models within Unity
 						</h3>
 						<p>
-							For more control over projectiles, I utilized the mathematics
-							behind bezier curves to simulate projectile motion. While it took
-							me a while to figure it out, it worked flawlessly when I did. For
-							ammo collision, Unity's in-built Rigidbody and Collider physics
-							were reliable enough for my use case.
+							To achieve this, I used LogicalError's RealTimeCSG editor to
+							quickly create the convenience store's structure, as well as for
+							some small items with tricky shapes. While I know that Unity
+							ProBuilder was also another option, I found RealTimeCSG much more
+							intuitive and easy to use.
 						</p>
 					</div>
 
 					{/* Contribution 2 */}
 					<div className="mb-4">
 						<h3>
-							<span className="badge badge-primary mr-2">2</span> Beware of
-							Bugs!
+							<span className="badge badge-primary mr-2">2</span> Please be
+							Aware of Potential Bugs!
 						</h3>
 						<p>
-							This game is far from being polished, but I just wanted to share
-							this cool prototype as I continue working on it.
+							As a game created within a time limit, there were serveral bugs
+							that still remain. I noticed many players encounter bugs that I
+							have never seen before, which highlights the importance of proper
+							playtesting before releasing a game.
 						</p>
 					</div>
 				</div>
@@ -212,21 +227,6 @@ const ProjectWireframe = () => {
 				<div className="col-lg-8 offset-lg-2">
 					<h2 className="mb-4">Gallery</h2>
 					<div className="row">
-						{/* Image 1 with caption */}
-
-						{/* Image 2 with caption */}
-						<div className="col-md-12 mb-4">
-							<figure className="figure">
-								<img
-									src="game-thumbnails/konbini/jumpscare.png"
-									alt="The stalker's true nature...!"
-									className="img-fluid rounded"
-								/>
-								<figcaption className="figure-caption text-center mt-2">
-									The stalker's true nature...!
-								</figcaption>
-							</figure>
-						</div>
 						{/* Image 3 with caption */}
 						<div className="col-md-12 mb-4">
 							<figure className="figure">

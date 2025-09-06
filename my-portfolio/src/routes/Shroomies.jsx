@@ -1,14 +1,19 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 
 const ProjectWireframe = () => {
+	const navigate = useNavigate();
 	return (
 		<div>
 			<nav className="navbar navbar-light bg-light fixed-top">
 				<div className="container">
-					<a className="navbar-brand" href="/">
+					<button
+						className="navbar-brand btn btn-link p-0"
+						onClick={() => navigate(-1)}
+					>
 						← Back to Portfolio
-					</a>
+					</button>
 				</div>
 			</nav>
 			<div className="hero container mt-5">
@@ -49,10 +54,31 @@ const ProjectWireframe = () => {
 										<strong>Team Size:</strong> 4 people
 									</p>
 									<p>
-										<strong>Technologies:</strong> Unity, Audacity
+										<strong>Technologies:</strong> Unity, Audacity, Visual
+										Studio, JetBrains Rider, Trello
+									</p>
+									<p>
+										<strong>Teammates:</strong>
+										<ul>
+											<li>
+												<a href="https://tomawash.wixsite.com/website">
+													Tomasz Wiercioch (Art, Design, Enemy Design)
+												</a>
+											</li>
+											<li>
+												<a href="https://www.linkedin.com/in/anthony-melendez/">
+													Anthony Melendez (Production, Design, Level Design)
+												</a>
+											</li>
+											<li>Michael Feliciano (Music, SFX)</li>
+										</ul>
 									</p>
 								</div>
 								<div className="col-md-6">
+									<p>
+										<strong>Development Duration:</strong> ~3 months, with
+										occasional future bugfixes
+									</p>
 									<p>
 										<strong>My Contributions:</strong>
 									</p>
@@ -132,8 +158,8 @@ const ProjectWireframe = () => {
 							featured at GDC 2023 as 1 or 3 CUNY student games!
 						</li>
 						<li className="list-group-item">
-							Original Shroomies was made for a game jam and won 2nd place!
-							(itch.io BWGJ 2022)
+							Original Shroomies was made for a 10-day game jam and won 2nd
+							place! (itch.io BWGJ 2022)
 						</li>
 						<li className="list-group-item">My first mobile game!</li>
 						<li className="list-group-item">
