@@ -13,6 +13,34 @@ function WebDev() {
 					{/* Project 1 */}
 					<CarouselCard
 						id="fairnestCarousel"
+						title="Tomato, Not Potato"
+						body={
+							<>
+								A simple Pomodoro timer app for Android. Features a timer with
+								focus and break sessions, along with a long break at the end of
+								each loop. Track your usage patterns and Pomodoro history with a
+								streak calendar! Available on Google Play Store soon!
+							</>
+						}
+						media={[
+							{
+								type: "image",
+								src: "web-thumbnails/tomato/tomato.png",
+								alt: "Tomato, Not Potato Thumbnail 1",
+							},
+							{
+								type: "image",
+								src: "web-thumbnails/tomato/tomato2.png",
+								alt: "Tomato, Not Potato Thumbnail 2",
+							},
+						]}
+						tech={"Jetpack Compose / Kotlin (2025)"}
+						to={"/tomato-not-potato"}
+					/>
+
+					{/* Project 2 */}
+					<CarouselCard
+						id="fairnestCarousel"
 						title="FairNest"
 						body={
 							<>
@@ -78,7 +106,7 @@ function WebDev() {
 						to={"/fairnest"}
 					/>
 
-					{/* Project 2 */}
+					{/* Project 3 */}
 					<CarouselCard
 						id="exploreoCarousel"
 						title="Exploreo"

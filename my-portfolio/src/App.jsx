@@ -12,6 +12,7 @@ import Exploreo from "./routes/Exploreo";
 import ChairsAndChairs from "./routes/ChairsAndChairs";
 import TheJourneyOfBob from "./routes/TheJourneyOfBob";
 import AeternumRift from "./routes/AeternumRift";
+import TomatoNotPotato from "./routes/TomatoNotPotato";
 
 function App() {
 	return (
@@ -34,6 +35,7 @@ function App() {
 				<Route path="/chairs-and-chairs" element={<ChairsAndChairs />} />
 				<Route path="/journey-of-bob" element={<TheJourneyOfBob />} />
 				<Route path="/aeternum-rift" element={<AeternumRift />} />
+				<Route path="/tomato-not-potato" element={<TomatoNotPotato />} />
 			</Routes>
 
 			<Footer />

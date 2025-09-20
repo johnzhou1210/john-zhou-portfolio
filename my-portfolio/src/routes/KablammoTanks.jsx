@@ -6,12 +6,12 @@ const ProjectWireframe = () => {
 	const navigate = useNavigate();
 
 	return (
-		<div>
+		<div className="px-5">
 			<nav className="navbar navbar-light bg-light fixed-top">
 				<div className="container">
 					<button
 						className="navbar-brand btn btn-link p-0"
-						onClick={() => navigate(-1)}
+						onClick={() => navigate("/")}
 					>
 						← Back to Portfolio
 					</button>
@@ -28,7 +28,7 @@ const ProjectWireframe = () => {
 						</p>
 					</div>
 					<div className="col-12 mt-3">
-						<div className="ratio" style={{ "--bs-aspect-ratio": "30%" }}>
+						<div className="ratio" style={{ "--bs-aspect-ratio": "40%" }}>
 							<iframe
 								src="https://www.youtube.com/embed/VQdGXn3Sw8k?si=IXPlc_am18t-TUfi"
 								title="YouTube video player"

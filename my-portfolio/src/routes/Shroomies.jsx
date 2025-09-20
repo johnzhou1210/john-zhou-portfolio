@@ -5,12 +5,12 @@ import { useNavigate } from "react-router-dom";
 const ProjectWireframe = () => {
 	const navigate = useNavigate();
 	return (
-		<div>
+		<div className="px-5">
 			<nav className="navbar navbar-light bg-light fixed-top">
 				<div className="container">
 					<button
 						className="navbar-brand btn btn-link p-0"
-						onClick={() => navigate(-1)}
+						onClick={() => navigate("/")}
 					>
 						← Back to Portfolio
 					</button>
